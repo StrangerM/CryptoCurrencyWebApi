@@ -23,6 +23,10 @@ namespace CryptoCurrencyProject.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get WeatherForecast
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
